@@ -1,0 +1,93 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "user": {
+        "username": "Vansh Patel",
+        "email": "vanshpatel2505@gmail.com",
+        "password": "123456",
+        "confirmPassword": "123456",
+        "number": "9106792692",
+        "address": "9, Chitrakoot Near Aekta Tower - Vasna Berrage Road - Ahmedabad - 380007"
+      },
+      "id": 1
+    },
+    {
+      "user": {
+        "username": "Hardik ",
+        "email": "hardik@gmail.com",
+        "password": "123456",
+        "confirmPassword": "123456",
+        "number": "1144778855",
+        "address": "Ahemdabad"
+      },
+      "id": 2
+    },
+    {
+      "user": {
+        "username": "nishant",
+        "email": "nishant@gmail.com",
+        "password": "nishant",
+        "confirmPassword": "nishant",
+        "number": "1234567890",
+        "address": "demo"
+      },
+      "id": 3
+    },
+    {
+      "user": {
+        "username": "paavan",
+        "email": "paavan@gmail.com",
+        "password": "paavan",
+        "confirmPassword": "paavan",
+        "number": "1234567890",
+        "address": "Dared"
+      },
+      "id": 4
+    }
+  ],
+  "inquiry": [
+    {
+      "user": {
+        "name": "Vansh Patel",
+        "email": "vanshpatel2505@gmail.com",
+        "phone": "91067925692",
+        "subject": "Hello tested??",
+        "message": "tested`"
+      },
+      "id": 1
+    },
+    {
+      "name": "Vansh Patel",
+      "email": "vanshpatel2505@gmail.com",
+      "phone": "9106792692",
+      "subject": "Tested Propose",
+      "message": "Tested Done.",
+      "id": 2
+    },
+    {
+      "name": "nishant",
+      "email": "nishant@gmail.com",
+      "phone": "1234567890",
+      "subject": "INQUIRY",
+      "message": "Nishant's Inquiry",
+      "id": 3
+    }
+  ]
+}
