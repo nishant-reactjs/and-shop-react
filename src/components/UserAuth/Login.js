@@ -9,7 +9,6 @@ import { Flip, ToastContainer, toast } from "react-toastify";
 
 const Login = () => {
   const [type, setType] = useState("password");
-  const [icon, setIcon] = useState(faEyeSlash);
   const navigate = useNavigate();
   const [user, setUser] = useState({
     email: "",
@@ -71,10 +70,8 @@ const Login = () => {
   };
   const handleShow = () => {
     if (type === "password") {
-      setIcon(faEye);
       setType("text");
     } else {
-      setIcon(faEyeSlash);
       setType("password");
     }
   };
@@ -130,7 +127,7 @@ const Login = () => {
                         autoCorrect="off"
                       />
                       <div onClick={handleShow}>
-                        {type == "password" ? (
+                        {type === "password" ? (
                           <FontAwesomeIcon
                             icon={faEye}
                             size="lg"
