@@ -1,6 +1,8 @@
 json db server url : npx json-server --watch db.json --port 3078
 
 
+Live url: [https://andshop.vercel.app/](https://andshop.vercel.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
